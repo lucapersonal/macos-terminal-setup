@@ -1,0 +1,27 @@
+[user]
+	email = luca@pxeffect.com
+	name = Luca Sturlese
+[commit]
+	gpgSign = false
+	template = /Users/luca/Library/Application Support/com.fournova.Tower3/Commit Templates/E6DE78A6-F475-4629-AACE-0056BE46AF7D
+[tag]
+	forceSignAnnotated = false
+[core]
+	excludesfile = /Users/luca/.gitignore
+[diff]
+	tool = Araxis Merge
+[difftool "Araxis Merge"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[difftool]
+	prompt = false
+	trustExitCode = true
+[merge]
+	tool = Araxis Merge
+[mergetool "Araxis Merge"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
+[mergetool]
+	prompt = false
+	keepBackup = true
+[http]
+	postBuffer = 157286400
