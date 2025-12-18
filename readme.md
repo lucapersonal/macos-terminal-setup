@@ -7,13 +7,15 @@ You need to install this for all options, so these are the first steps:
 
 1. Install zsh - `brew install zsh`.
 2. Install oh-my-zsh - `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`.
-3. Install zsh-completions - `brew install zsh-completions`.
-4. Display hidden files in this repo by pressing the `Cmd (⌘) + Shift (⇧) + .` keyboard shortcut in a Finder window.
-5. Install ZSH Pure theme by copying `./zsh/pure/` to `~/.local/zsh/`
-6. Setup .zsh profile by copying `./zsh/.zshrc` to `~/`
-7. Copy `./.hushlogin` to `~/`. This will prevent the "last login" prompt that terminal shows from appearing.
-8. Install the appropriate Terminal Profile found in `./terminal-profiles/`.
-9. Setup default git configuration by copying `./git/.gitconfig` and `./git/.gitignore` to `~/`.
+3. Install zsh pure prompt - `brew install pure`.
+4. Install zsh-autosuggestions plugin - `brew install zsh-autosuggestions`
+5. Install zsh-completions plugin - `brew install zsh-completions`.
+6. Install zsh-syntax-highlighting plugin - `brew install zsh-syntax-highlighting`.
+7. Display hidden files in this repo by pressing the `Cmd (⌘) + Shift (⇧) + .` keyboard shortcut in a Finder window.
+8. Setup .zsh profile by copying `./zsh-profile/.zshrc` to `~/`
+9. Copy `./.hushlogin` to `~/`. This will prevent the "last login" prompt that terminal shows from appearing.
+10. Install the appropriate Terminal Profile found in `./terminal-profiles/`.
+11. Setup default git configuration by copying `./git/.gitconfig` and `./git/.gitignore` to `~/`.
 
 
 ## Step 2: Select Option
