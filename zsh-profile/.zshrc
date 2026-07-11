@@ -56,7 +56,7 @@ alias ohmyzsh="code ~/.oh-my-zsh"
 alias pip="/usr/bin/pip3"
 alias o="open ."
 alias cpr="copilot --continue"
-alias yolo="copilot --yolo"
+alias yolo="copilot /yolo"
 
 # Pyenv Configuration
 export PYENV_ROOT="$HOME/.pyenv"
